@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300&display=swap');
+
+
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color:hsl(200,50%,20%);
+}
+
+.navbar {
+    background-color: hsl(200,50%,7%);
+}
+
+#fav {
+    color:#bbb8b5;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.searchbox {
+    margin: 0;
+    width: 40%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: .8rem 2rem .8rem 1rem;
+    outline: none;
+    border: none;
+    background-color: #23212E;
+    color: white;
+}
+
+.searchbutton {
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #23212E;
+    margin: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: .8rem 1rem;
+    margin-left: -1.9%;
+}
+
+i {
+    color: #F4952C;
+}
+
+.recipe-list {
+    margin: auto;
+}
+
+.card {
+    background-color: #23212E;
+    border-radius: 20px;
+    color: #CFCECE
+}
+
+.btn-warning {
+    background: rgb(241, 161, 49);
+    background: linear-gradient(90deg, rgba(241, 161, 49, 1) 1%, rgba(244, 149, 44, 1) 30%, rgba(250, 197, 63, 1) 66%);
+    border-radius: 20px;
+    padding: 0.4rem 2rem;
+    color: white!important;
+}
+.white{
+    color: white;
+}
+.food-wid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#recipe-intro{
+    font-weight: lighter!important;
+    word-spacing: 0.3rem;
+    
+}
+
+
